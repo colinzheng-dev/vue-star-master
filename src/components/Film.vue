@@ -41,7 +41,6 @@ export default {
       }).then((j) => {
         this.results = j;
         this.date = j.release_date.slice(0, -6);
-
         this.results.characters.forEach((characterUrl) => {
           fetch(characterUrl).then((response) => {
             return response.json();
