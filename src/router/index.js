@@ -24,4 +24,4 @@ export default new Router({
   mode: 'history',
 });
 
-
+// This file is index
