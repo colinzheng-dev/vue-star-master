@@ -23,4 +23,4 @@ export default new Router({
   ],
   mode: 'history',
 });
-// backend side is not yet build now. so we 
+
