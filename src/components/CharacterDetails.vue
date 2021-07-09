@@ -8,8 +8,8 @@
   			</div>
   			<div class="panel-body">
   				<div v-for="(characterDetail, index) in details" class="col-md-4">
-          {{ details[index].name }}
-        </div>
+					{{ details[index].name }}	
+				</div>
   			</div>
   		</div>
   	</div>
